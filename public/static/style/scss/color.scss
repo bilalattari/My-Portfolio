@@ -1,0 +1,45 @@
+/* Background color
+-------------------------------*/
+.theme-bg {
+	background-color: $px-theme;
+}
+
+.dark-bg {
+	background-color: $px-dark;
+}
+
+.gray-bg {
+	background-color: $px-gray;
+}
+
+.white-bg {
+	background-color: $px-white;
+}
+
+.blue-bg {
+	background-color: $px-blue;
+}
+
+/* Text color
+-------------------------------*/
+.white-color {
+	color: $px-white;
+}
+.white-color-light {
+	color: rgba($px-white, 0.65);
+}
+.dark-color {
+	color: $px-dark;
+}
+
+.body-color {
+	color: $px-body-color;
+}
+
+.theme-color {
+	color: $px-theme;
+}
+
+.green-color {
+	color: $px-green;
+}

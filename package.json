@@ -1,0 +1,24 @@
+{
+  "name": "tony-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.2.4",
+    "emailjs-com": "^3.2.0",
+    "isotope-layout": "^3.0.6",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "18.2.0",
+    "react-tsparticles": "^2.9.3",
+    "swiper": "^9.1.0",
+    "tsparticles": "^2.9.3",
+    "typeit-react": "^2.6.4"
+  }
+}

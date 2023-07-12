@@ -1,0 +1,353 @@
+/*---------------------------------
+* sec-round
+-----------------------------------*/
+.sec-round {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+	.full-height {
+	  height: 100%;
+	}
+	.round-item {
+		float: left;
+		width: 20%;
+		height: 100%;
+		box-sizing: border-box;
+		border-right: 1px solid rgba(153, 153, 153, 0.11);
+		height: 100%;
+		position: relative;
+	  	&:first-child {
+	  		border-left: 1px solid rgba(153, 153, 153, 0.11);
+		}
+	}
+}
+
+
+/* ----------------------
+*	Section
+-------------------------*/
+.container-large {
+	max-width: 1440px;
+}
+.container-small {
+	max-width: 750px;
+}
+.section {
+	padding: 100px 0;
+	@include down-md {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	@include down-sm {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+
+.section-top-up {
+	.container {
+		margin-top: -190px;
+	    position: relative;
+	    z-index: 1;
+	}
+}
+.section-top-up-100 {
+	.container {
+		margin-top: -100px;
+	    position: relative;
+	    z-index: 1;
+	}
+}
+
+
+/* ----------------------
+*	Box shadow
+---------------------------*/
+.box-shadow-lg {
+	box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+}
+.box-shadow {
+	box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+}
+.box-shadow-hover {
+	box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+	&:hover {
+		box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+	}
+}
+.box-shadow-only-hover {
+	&:hover {
+		box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+	}
+}
+
+.border-radius-50 {
+	border-radius: 50% ;
+}
+
+/* ----------------------
+*	Opacity
+---------------------------*/
+@for $i from 1 through 9 {
+	.opacity-#{$i} {
+		opacity: #{$i / 10};
+	}
+}
+
+/* ----------------------
+*	transeition
+---------------------------*/
+.transition  {
+	@include transition(ease-in-out all 0.35s);
+}
+
+/* ----------------------
+*	Image Hover
+---------------------------*/
+.img-hover {
+	.img-hover-in {
+		overflow: hidden;
+		img {
+			@include transition(ease-in-out all 0.33s);
+			@include scale(1);
+		}
+	}
+	&:hover {
+		.img-hover-in {
+			img {
+				@include scale(1.1);
+			}
+		}
+	}
+}
+/* ----------------------
+*	Top Hover
+---------------------------*/
+.hover-top {
+	position: relative;
+	top: 0;
+	&:hover {
+		top:-10px;
+	}
+}
+
+/* ----------------------
+*	Grayscale Hover
+---------------------------*/
+.grayscale {
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.grayscale-hover {
+	img {
+		-webkit-filter: grayscale(100%);
+	    filter: grayscale(100%);
+	}
+	&:hover {
+		img {
+			-webkit-filter: grayscale(0);
+		    filter: grayscale(0);
+		    opacity: 1;
+		}	
+	}
+}
+
+
+.font-alt {
+	font-family: $px-font-alt;
+}
+
+/*	Property
+---------------------------*/
+.bg-cover {
+	background-size: cover;
+}
+.bg-no-repeat {
+ 	background-repeat: no-repeat;
+ }
+.bg-fixed {
+ 	background-attachment: fixed;
+}
+.bg-center {
+	background-position: center;
+} 
+
+/* Letter spacing
+-------------------------------*/
+@for $i from 1 through 10 {
+	.letter-spacing-#{$i} {
+		letter-spacing: #{$i}px;
+	}
+}
+
+/* Height Width
+--------------------*/
+@for $i from 1 through 20 {
+	.w-#{$i * 5}px {
+		width: #{$i * 5}px;
+	}
+}
+
+@for $i from 3 through 20 {
+	.w-#{$i * 50}px {
+		width: #{$i * 50}px;
+	}
+}
+.max-w-100 {
+	max-width: 100%;
+}
+
+.min-h-350px {
+	min-height: 350px;
+}
+.min-h-50vw {
+	min-height: 65vh;
+}
+
+.full-screen {
+	min-height: 100vh;
+}
+.screen-85 {
+	min-height: 85vh;
+}
+.screen-65 {
+	min-height: 65vh;
+}
+@include down-sm {
+	.sm-full-screen-auto {
+		min-height: auto;
+	}
+}
+
+.max-width-auto {
+	max-width: none;
+	@include down-md {
+		max-width: 100%;
+	}
+}
+
+/* Font wight
+--------------------*/
+@for $i from 1 through 9 {
+	.font-w-#{$i * 100} {
+		font-weight: #{$i * 100}
+	}
+}
+
+// Margin Padding mixin
+$mp-name: (
+	"m":"margin",
+	"p":"padding",
+);
+$mp-position: (
+	"t":"top",
+	"l":"left",
+	"r":"right",
+	"b":"bottom",
+);
+@mixin spacing($brksize: normal) {
+	@for $i from 0 through 20 {
+		@each $n-name, $n-value in $mp-name {
+			@if $brksize == normal{
+				.#{$n-name}-#{$i*5}px{
+					#{$n-value}: #{$i*5}px;
+				}
+				.#{$n-name}-#{$i*5}px-tb{
+					#{$n-value}-top: #{$i*5}px;
+					#{$n-value}-bottom: #{$i*5}px;
+				}
+				.#{$n-name}-#{$i*5}px-lr{
+					#{$n-value}-left: #{$i*5}px;
+					#{$n-value}-right: #{$i*5}px;
+				}
+			}
+
+			@if $brksize == sm{
+				.sm-#{$n-name}-#{$i*5}px{
+					#{$n-value}: #{$i*5}px;
+				}
+				.sm-#{$n-name}-#{$i*5}px-tb{
+					#{$n-value}-top: #{$i*5}px;
+					#{$n-value}-bottom: #{$i*5}px;
+				}
+				.sm-#{$n-name}-#{$i*5}px-lr{
+					#{$n-value}-left: #{$i*5}px;
+					#{$n-value}-right: #{$i*5}px;
+				}
+			}
+
+			@if $brksize == md{
+				.md-#{$n-name}-#{$i*5}px{
+					#{$n-value}: #{$i*5}px;
+				}
+				.md-#{$n-name}-#{$i*5}px-tb{
+					#{$n-value}-top: #{$i*5}px;
+					#{$n-value}-bottom: #{$i*5}px;
+				}
+				.md-#{$n-name}-#{$i*5}px-lr{
+					#{$n-value}-left: #{$i*5}px;
+					#{$n-value}-right: #{$i*5}px;
+				}
+			}
+
+			@if $brksize == lg{
+				.lg-#{$n-name}-#{$i*5}px{
+					#{$n-value}: #{$i*5}px;
+				}
+				.lg-#{$n-name}-#{$i*5}px-tb{
+					#{$n-value}-top: #{$i*5}px;
+					#{$n-value}-bottom: #{$i*5}px;
+				}
+				.lg-#{$n-name}-#{$i*5}px-lr{
+					#{$n-value}-left: #{$i*5}px;
+					#{$n-value}-right: #{$i*5}px;
+				}
+			}
+
+			@each $p-name, $p-value in $mp-position {
+				@if $brksize == normal{
+					.#{$n-name}-#{$i*5}px-#{$p-name}{
+						#{$n-value}-#{$p-value}: #{$i*5}px;
+					}
+				}
+				@if $brksize == sm {
+					.sm-#{$n-name}-#{$i*5}px-#{$p-name}{
+						#{$n-value}-#{$p-value}: #{$i*5}px;
+					}	
+				}
+				@if $brksize == md {
+					.md-#{$n-name}-#{$i*5}px-#{$p-name}{
+						#{$n-value}-#{$p-value}: #{$i*5}px;
+					}	
+				}
+				@if $brksize == lg {
+					.lg-#{$n-name}-#{$i*5}px-#{$p-name}{
+						#{$n-value}-#{$p-value}: #{$i*5}px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Margin Padding
+--------------------*/
+@include spacing(normal);
+
+@include down-lg {
+	/* Margin Padding
+	--------------------*/
+	@include spacing(lg);
+}
+@include down-md {
+	/* Margin Padding
+	--------------------*/
+	@include spacing(md);
+}
+@include down-sm {
+	/* Margin Padding
+	--------------------*/
+	@include spacing(sm);
+}

@@ -1,0 +1,31 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+
+html {
+  scroll-behavior: smooth;
+}
+.video-bg-container {
+  position: absolute;
+  z-index: -1;
+  inset: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-image: none;
+}
+.video-bg-container video {
+  margin: auto;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+}

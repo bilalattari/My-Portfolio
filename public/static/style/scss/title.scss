@@ -1,0 +1,28 @@
+.section-title {
+	h3 {
+		font-weight: 700;
+	    font-size: 35px;
+	    margin: 0 0 10px;
+	    position: relative;
+	    display: inline-block;
+	    vertical-align: top;
+	    z-index: 1;
+	    padding: 0 0 10px;
+	    &:after {
+    	    content: "";
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    margin: auto;
+		    height: 2px;
+		    z-index: -1;
+		    background: $px-theme;
+		    width: 50px;
+	    }
+	}
+	p{
+		margin: 0;
+	    font-size: 14px;
+	    letter-spacing: 2px;
+	}
+}
