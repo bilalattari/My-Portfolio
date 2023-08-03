@@ -42,78 +42,267 @@ const Work = () => {
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
-                <img src="static/img/portfolio-1.jpg" alt="image" />
+                <img src="static/img/portfolio-1.jpeg" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
+                <div>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.sarfkidunya"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/playstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                  <a
+                    href="https://apps.apple.com/us/app/sarfk-ki-dunya/id6449247765"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3 ml-2"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/appstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
               </div>
-              <a className="link-overlay" href="#" />
+              {/* <a className="link-overlay" href="#" /> */}
             </div>
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
-                <img src="static/img/portfolio-6.jpg" alt="image" />
+                <img src="static/img/portfolio-2.jpeg" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
+                <div>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.nahwkidunya"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/playstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                  <a
+                    href="https://apps.apple.com/us/app/nahw-ki-dunya-learn-arabic/id1575739040"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3 ml-2"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/appstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
               </div>
-              <a className="link-overlay" href="#" />
+              {/* <a className="link-overlay" href="#" /> */}
             </div>
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
-                <img src="static/img/portfolio-2.jpg" alt="image" />
+                <img src="static/img/portfolio-3.jpeg" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
+                <div>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.gufhtugupublication"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/playstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                  <a
+                    href="https://apps.apple.com/us/app/gufhtugu-urdu-books-library/id1614142319"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3 ml-2"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/appstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
               </div>
-              <a className="link-overlay" href="#" />
+              {/* <a className="link-overlay" href="#" /> */}
             </div>
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
-                <img src="static/img/portfolio-3.jpg" alt="image" />
+                <img src="static/img/portfolio-4.jpeg" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
+                <div>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.qariuser"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/playstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                  <a href="" target="_blank">
+                    <span
+                      className="rounded-circle p-3 ml-2"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/appstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
               </div>
-              <a className="link-overlay" href="#" />
+              {/* <a className="link-overlay" href="#" /> */}
             </div>
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
-                <img src="static/img/portfolio-4.jpg" alt="image" />
+                <img src="static/img/portfolio-5.jpeg" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
+                <div>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.zeeshanusmani"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/playstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                  <a
+                    href="https://apps.apple.com/sn/app/zeeshan-usmani/id1642532228"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3 ml-2"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/appstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
               </div>
-              <a className="link-overlay" href="#" />
+              {/* <a className="link-overlay" href="#" /> */}
             </div>
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
-                <img src="static/img/portfolio-5.jpg" alt="image" />
+                <img src="static/img/portfolio-6.jpeg" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
+                <div>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.pippipyalah"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/playstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                  <a
+                    href="https://apps.apple.com/us/app/pip-pip-yalah-covoiturage/id1459525543"
+                    target="_blank"
+                  >
+                    <span
+                      className="rounded-circle p-3 ml-2"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <img
+                        src="static/img/appstore-icon.png"
+                        width="20"
+                        alt="icon"
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
               </div>
-              <a className="link-overlay" href="#" />
+              {/* <a className="link-overlay" href="#" /> */}
             </div>
           </div>{" "}
           {/* grid item */}
