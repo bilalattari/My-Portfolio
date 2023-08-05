@@ -31,7 +31,7 @@ const Work = () => {
             <div className="section-title">
               <h3 className="dark-color text-uppercase">LATEST WORKS</h3>
               <p className="text-uppercase small">
-                A Lead UX &amp; UI designer based in Canada
+                SENIOR WEB & MOBILE APP DEVELOPER
               </p>
             </div>
           </div>
@@ -40,7 +40,10 @@ const Work = () => {
       <div className="container">
         <div className="portfolio-content lightbox-gallery">
           <div className="grid-item product branding">
-            <div className="portfolio-box-01">
+            <div
+              className="portfolio-box-01"
+              style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }}
+            >
               <div className="portfolio-img">
                 <img src="static/img/portfolio-1.jpeg" alt="image" />
               </div>
@@ -85,7 +88,10 @@ const Work = () => {
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
-            <div className="portfolio-box-01">
+            <div
+              className="portfolio-box-01"
+              style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }}
+            >
               <div className="portfolio-img">
                 <img src="static/img/portfolio-2.jpeg" alt="image" />
               </div>
@@ -130,7 +136,10 @@ const Work = () => {
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
-            <div className="portfolio-box-01">
+            <div
+              className="portfolio-box-01"
+              style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }}
+            >
               <div className="portfolio-img">
                 <img src="static/img/portfolio-3.jpeg" alt="image" />
               </div>
@@ -175,7 +184,10 @@ const Work = () => {
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
-            <div className="portfolio-box-01">
+            <div
+              className="portfolio-box-01"
+              style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }}
+            >
               <div className="portfolio-img">
                 <img src="static/img/portfolio-4.jpeg" alt="image" />
               </div>
@@ -217,7 +229,10 @@ const Work = () => {
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
-            <div className="portfolio-box-01">
+            <div
+              className="portfolio-box-01"
+              style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }}
+            >
               <div className="portfolio-img">
                 <img src="static/img/portfolio-5.jpeg" alt="image" />
               </div>
@@ -262,7 +277,10 @@ const Work = () => {
           </div>{" "}
           {/* grid item */}
           <div className="grid-item product branding">
-            <div className="portfolio-box-01">
+            <div
+              className="portfolio-box-01"
+              style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }}
+            >
               <div className="portfolio-img">
                 <img src="static/img/portfolio-6.jpeg" alt="image" />
               </div>
