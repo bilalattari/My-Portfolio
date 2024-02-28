@@ -103,7 +103,7 @@ const Index1 = () => {
                     I Am Passionate <TypingAnimation />
                   </h2>
                   <p>
-                    Passionate React Native developer dedicated to crafting
+                    Passionate Full Stack Developer dedicated to crafting
                     user-friendly mobile applications that positively impact
                     people's lives through innovative concepts.
                   </p>
