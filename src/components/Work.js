@@ -80,7 +80,7 @@ const Work = () => {
               <div className='portfolio-info'>
                 <div>
                   <a
-                    href='https://apps.apple.com/us/app/pip-pip-yalah-covoiturage/id1459525543'
+                    href='https://apps.apple.com/dk/app/my-guilty-dogs/id6464316408'
                     target='_blank'
                   >
                     <span
