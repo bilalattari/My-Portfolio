@@ -5,20 +5,20 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-md-6 m-10px-tb">
             <div className="nav justify-content-center justify-content-md-start">
-              <a href="#">
+              <a href="https://web.facebook.com/BilalRaza1235/">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <i className="fab fa-twitter" />
-              </a>
-              <a href="#">
+              </a> */}
+              {/* <a href="#">
                 <i className="fab fa-instagram" />
-              </a>
-              <a href="#">
+              </a> */}
+              <a href="https://www.linkedin.com/in/bilal-raza-0082a8186/">
                 <i className="fab fa-linkedin-in" />
               </a>
-              <a href="#">
-                <i className="fab fa-pinterest" />
+              <a href="https://github.com/bilalattari">
+                <i className="fab fa-github" />
               </a>
             </div>
           </div>
