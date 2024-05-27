@@ -79,6 +79,21 @@ const Work = () => {
               </div>
               <div className='portfolio-info'>
                 <div>
+                <a
+                    href='https://play.google.com/store/apps/details?id=com.myguiltydog'
+                    target='_blank'
+                  >
+                    <span
+                      className='rounded-circle p-3'
+                      style={{ backgroundColor: '#fff' }}
+                    >
+                      <img
+                        src='static/img/playstore-icon.png'
+                        width='20'
+                        alt='icon'
+                      />
+                    </span>
+                  </a>
                   <a
                     href='https://apps.apple.com/dk/app/my-guilty-dogs/id6464316408'
                     target='_blank'

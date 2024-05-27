@@ -52,7 +52,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="skill-lt">
-              <h6 className="dark-color">Redux</h6>
+              <h6 className="dark-color">Rest APIs</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
@@ -108,7 +108,7 @@ const Skills = () => {
                     <i className="fas fa-compact-disc" />
                   </div>
                   <div className="media-body">
-                    <h5>500+ Clients</h5>
+                    <h5>100+ Clients</h5>
                   </div>
                 </div>
               </div>
@@ -133,14 +133,17 @@ const Skills = () => {
                 </div>
               </div>
               <div className="col-6 m-15px-tb">
-                <div className="feature-box-2 media align-items-center">
+                <a
+                  className="feature-box-2 media align-items-center"
+                  href="https://www.fiverr.com/users/bilalraza590"
+                >
                   <div className="icon">
                     <i className="fas fa-flag" />
                   </div>
                   <div className="media-body">
-                    <h5>10 Countries Visited</h5>
+                    <h5>100+ Orders on Fiver</h5>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
