@@ -50,16 +50,18 @@ const Work = () => {
               <div className='portfolio-info'>
                 <div>
                   <a
-                    href='https://apps.apple.com/dk/app/my-guilty-dogs/id6464316408'
+                    href='https://apps.apple.com/us/app/lift-learn/id6470154996'
                     target='_blank'
                   >
-                    <span style={{ backgroundColor: '#fff' }}>
-                      <span style={{ color: '#000' }}>Will be live soon</span>
-                      {/* <img
+                   <span
+                      className='rounded-circle p-3 ml-2'
+                      style={{ backgroundColor: '#fff' }}
+                    >
+                      <img
                         src='static/img/appstore-icon.png'
                         width='20'
                         alt='icon'
-                      /> */}
+                      />
                     </span>
                   </a>
                 </div>
