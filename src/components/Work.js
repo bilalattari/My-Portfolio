@@ -39,6 +39,36 @@ const Work = () => {
       </div>
       <div className='container'>
         <div className='portfolio-content lightbox-gallery'>
+
+        <div className='grid-item product branding'>
+            <div
+              className='portfolio-box-01'
+              style={{ boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}
+            >
+              <div className='portfolio-img'>
+                <img src='static/img/portfolio-11.jpg' alt='image' />
+              </div>
+              <div className='portfolio-info'>
+                <div>
+                  <a href='https://www.qrinsight.co/' target='_blank'>
+                    <span
+                      className='rounded-circle p-3'
+                      style={{ backgroundColor: '#fff' }}
+                    >
+                      <img
+                        src='static/img/web-icon.png'
+                        width='20'
+                        alt='icon'
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
+              </div>
+              {/* <a className="link-overlay" href="#" /> */}
+            </div>
+          </div>
           <div className='grid-item product branding'>
             <div
               className='portfolio-box-01'
@@ -71,6 +101,53 @@ const Work = () => {
               {/* <a className="link-overlay" href="#" /> */}
             </div>
           </div>{' '}
+          <div className='grid-item product branding'>
+            <div
+              className='portfolio-box-01'
+              style={{ boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}
+            >
+              <div className='portfolio-img'>
+                <img src='static/img/portfolio-12.jpg' alt='image' />
+              </div>
+              <div className='portfolio-info'>
+                <div>
+                {/* <a
+                    href='https://play.google.com/store/apps/details?id=com.myguiltydog'
+                    target='_blank'
+                  >
+                    <span
+                      className='rounded-circle p-3'
+                      style={{ backgroundColor: '#fff' }}
+                    >
+                      <img
+                        src='static/img/playstore-icon.png'
+                        width='20'
+                        alt='icon'
+                      />
+                    </span>
+                  </a> */}
+                  <a
+                    href='https://apps.apple.com/us/app/rec-cess/id6517371290'
+                    target='_blank'
+                  >
+                    <span
+                      className='rounded-circle p-3 ml-2'
+                      style={{ backgroundColor: '#fff' }}
+                    >
+                      <img
+                        src='static/img/appstore-icon.png'
+                        width='20'
+                        alt='icon'
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
+              </div>
+              {/* <a className="link-overlay" href="#" /> */}
+            </div>
+          </div>
           <div className='grid-item product branding'>
             <div
               className='portfolio-box-01'
