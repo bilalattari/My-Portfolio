@@ -1,17 +1,17 @@
-import About from "@/src/components/About";
-import Blog from "@/src/components/Blog";
-import Contact from "@/src/components/Contact";
-import Skills from "@/src/components/Skills";
-import Testiminails from "@/src/components/Testiminails";
-import { tony } from "@/src/layouts/utils";
+import About from "../src/components/About";
+import Blog from "../src/components/Blog";
+import Contact from "../src/components/Contact";
+import Skills from "../src/components/Skills";
+import Testiminails from "../src/components/Testiminails";
+import { tony } from "../src/layouts/utils";
 import { Fragment, useEffect, useState } from "react";
 
-import Services from "@/src/components/Services";
-import TypingAnimation from "@/src/components/TypingAnimation";
-import Footer from "@/src/layouts/Footer";
+import Services from "../src/components/Services";
+import TypingAnimation from "../src/components/TypingAnimation";
+import Footer from "../src/layouts/Footer";
 import dynamic from "next/dynamic";
 
-const Work = dynamic(() => import("@/src/components/Work"), {
+const Work = dynamic(() => import("../src/components/Work"), {
   ssr: false,
 });
 

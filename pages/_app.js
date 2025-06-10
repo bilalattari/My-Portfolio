@@ -1,5 +1,5 @@
-import Preloader from "@/src/layouts/Preloader";
-import "@/styles/globals.css";
+import Preloader from "../src/layouts/Preloader";
+import "../styles/globals.css";
 import { Fragment, useEffect, useState } from "react";
 
 export default function App({ Component, pageProps }) {
